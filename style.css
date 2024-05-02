@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-family: inter;
+}
+.main{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(213, 210, 211, 1);
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+logo{
+font-weight:800;
+font-size:30pt ;
+}
+ul li{
+    list-style-type: none;
+    }
+    nav ul a{
+        color: black;
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-weight: 800;
+    }
+.content{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:100px;
+}
+h1{
+    font-weight: 500;
+    font-size: 30pt;
+}
+img{
+    width: 300px;
+}
